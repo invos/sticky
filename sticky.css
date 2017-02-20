@@ -1,0 +1,35 @@
+.note {
+    background-color: pink;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.note .title, .note .detail {
+    background-color: transparent;
+    resize: none;
+    padding: 3px;
+    border-style: none;
+    outline: none;
+}
+
+.note .controls {
+    text-align: center;
+}
+
+.note .title {
+    width: 70%;
+    height: 30px;
+}
+
+.note .detail {
+    width: 95%;
+    height: 120px;
+}
+
+.notes>.note:first-child .del-btn {
+    display: none;
+}
